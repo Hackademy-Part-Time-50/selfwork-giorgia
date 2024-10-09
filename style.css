@@ -1,0 +1,116 @@
+/* font family */
+h1,
+h2,
+h3,
+h4 {
+    font-family: "EB Garamond", serif;
+    color: rgb(30, 27, 24);
+}
+
+p {
+    font-family: "Afacad Flux", sans-serif;
+    color: rgb(4, 4, 5);
+    background-color: rgb(237, 206, 173);
+}
+
+
+/* decorazione link e pseudoclasse */
+a {
+    text-decoration: none;
+    color: black;
+
+}
+
+a:hover {
+    color: rgb(250, 124, 187);
+    background-color: azure;
+}
+
+
+
+/* navbar */
+.navbar1 {
+    list-style-type: none;
+}
+
+.nav {
+    background-color: rgb(240, 193, 175);
+    align-items: center;
+    align-content: center;
+    margin: 10px;
+
+}
+
+.navitem {
+    display: inline-block;
+    font-size: 20px;
+    margin: 10px;
+}
+
+
+.logo {
+    height: 35%;
+    width: 35%;
+}
+
+
+/* sezione blog */
+.blog {
+
+    background-color: rgba(249, 203, 190, 0.5);
+    padding: 10px;
+
+}
+
+
+
+/* sezione articoli */
+.container {
+    max-width: auto;
+    background: lightgrey;
+    height: auto;
+    overflow: hidden;
+    display: flex;
+}
+
+.articoli{
+    align-items: center;
+    align-content: center;
+}
+
+
+
+.immagine {
+    /* height: 250px; */
+    max-width: 100%
+}
+
+.row {
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    width: 100%;
+    height: 100%;
+}
+
+.col {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    height: 100%;
+    width: 60%;
+}
+
+article{
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    width: auto;
+    margin: 10px;
+}
+
+
+
+
+
